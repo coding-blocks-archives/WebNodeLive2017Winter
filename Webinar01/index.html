@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            font-family: Arial;
+            font-size: 18pt;
+        }
+    </style>
+</head>
+<body>
+
+<input id="todo"><button id="btn">ADD</button>
+<br>
+<ul id="list">
+    <li>Task One</li>
+</ul>
+<p id="para">HELLO</p>
+
+<script>
+let todoBox = document.getElementById('todo')
+let addBtn = document.getElementById('btn');
+let todoList = document.getElementById('list')
+addBtn.onclick = function () {
+    let todo = todoBox.value
+//    todoList.innerHTML +=
+//        '<li>' + todo + '</li>'
+    let newTaskListItem =
+        document.createElement('li') // <li></li>
+    newTaskListItem.innerText = todo;
+    todoList.appendChild(newTaskListItem)
+}
+
+</script>
+</body>
+</html>
