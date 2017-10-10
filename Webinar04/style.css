@@ -1,0 +1,31 @@
+* {
+    color: red;
+}
+
+body {
+    margin-top: 30px;
+}
+
+div {
+    margin-left: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#p2 {
+    font-family: "Courier"
+}
+
+#p3 {
+    margin-left: 20px;
+}
+
+.osmpara {
+    background-color: lightpink;
+}
+
+.bigpara {
+    font-size: 50px;
+}
