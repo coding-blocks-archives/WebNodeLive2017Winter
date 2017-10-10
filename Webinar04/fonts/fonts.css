@@ -1,0 +1,20 @@
+#para1 {
+    font-size: 30px;
+    /* font-size: 5vh; 1vh = 1/100 of window height */
+}
+
+#para2 {
+    /* font-family: serif */
+    /* font-family: serif */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#para3 {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#para4 {
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
