@@ -1,0 +1,12 @@
+div {
+    background-color: lightcyan;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+#div1 {
+    position: sticky;
+    top: 0;
+}
