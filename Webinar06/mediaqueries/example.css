@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: darkcyan
+}
+
+.sidebar {
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 3;
+    background-color: lightyellow;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+    .content {
+        padding: 30px;
+        width: 400px;
+    }
+    .container {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 750px) {
+    ul li {
+        font-size: 16pt;
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        border: black solid 1px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .content {
+        width: 600px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
