@@ -40,7 +40,7 @@ function upload (resizedFileName) {
 Promise.all([
     download('http://cb.lk/logo.png'),
     download('http://cb.lk/banner.png'),
-    download('http://cb.lk/promo.jpg')
+    download('http://cb.lk/promo.png')
 ]).then(function (downloadValues) {
     return Promise.all(downloadValues.map(resize))
 }).then(function (resizeValues) {
