@@ -1,0 +1,11 @@
+{
+  "name": "sample-npm-package",
+  "version": "0.1.0",
+  "description": "A very nice nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arnav Gupta <a@cb.lk>",
+  "license": "ISC"
+}
