@@ -5,8 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.2",
+    "express-session": "^1.15.6",
     "hbs": "^4.0.1",
     "mysql2": "^1.5.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "sequelize": "^4.28.1"
   },
   "devDependencies": {},
