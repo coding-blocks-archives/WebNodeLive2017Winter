@@ -1,0 +1,21 @@
+{
+  "name": "unittesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js",
+    "cover": "nyc --reporter=lcovonly --reporter=html mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
