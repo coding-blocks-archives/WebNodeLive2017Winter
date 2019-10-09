@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> FIZZ BUZZ </title>
+  </head>
+  <body>
+    <ul id = "fizzbuzz">
+
+    </ul>
+    <script>
+      let fblist = document.getElementById('fizzbuzz')
+      let starttime = new Date().getTime()
+      let listData = ""
+      for(let i=1;i<1000;i++){
+        let item = "";
+      // instead of using modulo using counter and checking it as 3 or 5 or 15 is
+      //less time consuming
+        if(i%3==0) item += "fizz "
+        if(i%5==0) item += "buzz "
+        if(item=="") item += i
+      // this ia quite time consuming
+      //  fblist.innerHTML += "<li>"+item+"</li>"
+      listData += "<li>" + item +"</li>"
+      }
+      fblist.innerHTML = listData
+      let endtime = new Date().getTime()
+      console.log(endtime-starttime)
+    </script>
+  </body>
+</html>
