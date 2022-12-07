@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "mysql2": "^1.5.1",
     "sequelize": "^4.23.4"
   },
